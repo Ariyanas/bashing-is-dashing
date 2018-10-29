@@ -1,5 +1,9 @@
 # Useful Bash Aliases
 Some useful bash aliases ( personal use )
+  - [For Common Bash Commands](#for-common-bash-commands)
+  - [For Apache2](#for-apache2)
+  - [For Web Directory](#for-web-directory)
+  - [For Laravel](#for-laravel)
 
 ### Common Bash Commands
 
