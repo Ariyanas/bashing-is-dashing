@@ -5,7 +5,7 @@ Some useful bash aliases ( personal use )
   - [For Web Directory](#for-web-directory)
   - [For Laravel](#for-laravel)
 
-### Common Bash Commands
+### For Common Bash Commands
 
 ```bash
 alias cls='clear'
@@ -45,6 +45,7 @@ alias 'phart'='sudo php artisan'
 alias 'pharts'='sudo php artisan serve'
 alias 'phartsp'='sudo php artisan serve --port "$1"'
 alias 'phtinker'='sudo php artisan tinker' # for using tinker
+alias 'art'='sudo php artisan'
 
 # migrations
 alias phartm='sudo php artisan migrate'
@@ -58,8 +59,14 @@ alias 'artmmi-table'='sudo php artisan make:migration --create="$"'
 # models
 alias artmmo='sudo php artisan make:model'
 alias artmmo-mi='sudo php artisan make:model "$1" -m'
+alias artmmo-c='sudo php artisan make:model "$1" -c'
+alias artmmo-cr='sudo php artisan make:model "$1" -cr'
+alias artmco-mcr='sudo php artisan make:model "$1" -mcr'
 
 # controllers
 alias artmco='sudo php artisan make:controller'
 alias artmco-r='sudo php artisan make:controller "$1" -r'
+
+# routes
+alias artroute='sudo php artisan route'
 ```
