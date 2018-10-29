@@ -25,8 +25,37 @@ alias a2sites-edit='sudo "$1" /etc/apache2/sites-available/"$2"' # use 'set file
 # use it like - 'a2sites-edit nano( or vim) default.conf(.conf file)
 ```
 
+### For Web Directory
+```bash
+alias cdm='cd /var/www/html'
+alias cdmp='cd /var/www/html/"$1"' # project dir name
+```
+
 ### For Laravel
 ```bash
 alias create-laravel='sudo composer create-project laravel/laravel'
 alias create-laravel-dist='sudo composer create-project laravel/laravel --prefer-dist'
+
+# for artisan commands
+alias 'phart'='sudo php artisan'
+alias 'pharts'='sudo php artisan serve'
+alias 'phartsp'='sudo php artisan serve --port "$1"'
+alias 'phtinker'='sudo php artisan tinker' # for using tinker
+
+# migrations
+alias phartm='sudo php artisan migrate'
+alias phartmf='sudo php artisan migrate:fresh'
+alias phartmr='sudo php artisan migrate:rollback'
+alias phartmrs='sudo php artisan migrate:rollback --step="$1"' # rollback step
+alias 'artmmi'='sudo php artisan make:migration'
+alias 'artmmi-create'='sudo php artisan make:migration --create="$"'
+alias 'artmmi-table'='sudo php artisan make:migration --create="$"'
+
+# models
+alias artmmo='sudo php artisan make:model'
+alias artmmo-mi='sudo php artisan make:model "$1" -m'
+
+# controllers
+alias artmco='sudo php artisan make:controller'
+alias artmco-r='sudo php artisan make:controller "$1" -r'
 ```
