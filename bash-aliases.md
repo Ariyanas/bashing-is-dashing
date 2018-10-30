@@ -18,6 +18,20 @@ alias install='sudo apt-get install'
 alias u-install='apt-get install'
 ```
 
+### For Git
+```bash
+alias gitit='sudo git init'
+alias gd='sudo git add'
+alias gda='sudo git add .'
+alias gcmm='sudo git commit -m'
+alias gcam='sudo git commit -am'
+alias gca='sudo git commit -a'
+alias gpush='sudo git push'
+alias gpusho='sudo git push -u orign'
+alias gpushob='sudo git push -u origin "$1"'
+alias gitstat='sudo git status'
+```
+
 ### For Apache2
 ```bash
 alias a2sites='cd /etc/apache2/sites-available'
