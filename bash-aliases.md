@@ -52,9 +52,9 @@ alias phartm='sudo php artisan migrate'
 alias phartmf='sudo php artisan migrate:fresh'
 alias phartmr='sudo php artisan migrate:rollback'
 alias phartmrs='sudo php artisan migrate:rollback --step="$1"' # rollback step
-alias 'artmmi'='sudo php artisan make:migration'
-alias 'artmmi-create'='sudo php artisan make:migration --create="$"'
-alias 'artmmi-table'='sudo php artisan make:migration --create="$"'
+alias artmmi='sudo php artisan make:migration'
+alias artmmi-create='sudo php artisan make:migration --create="$"'
+alias artmmi-table='sudo php artisan make:migration --create="$"'
 
 # models
 alias artmmo='sudo php artisan make:model'
@@ -68,5 +68,6 @@ alias artmco='sudo php artisan make:controller'
 alias artmco-r='sudo php artisan make:controller "$1" -r'
 
 # routes
-alias artroute='sudo php artisan route'
+alias artrt='sudo php artisan route'
+alias artrt-list='sudo php artisan route:list'
 ```
