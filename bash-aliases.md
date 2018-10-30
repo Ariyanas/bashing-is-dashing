@@ -1,6 +1,7 @@
 # Useful Bash Aliases
 Some useful bash aliases ( personal use )
   - [For Common Bash Commands](#for-common-bash-commands)
+  - [For Git Commands](#for-git)
   - [For Apache2](#for-apache2)
   - [For Web Directory](#for-web-directory)
   - [For Laravel](#for-laravel)
@@ -27,8 +28,10 @@ alias gcmm='sudo git commit -m'
 alias gcam='sudo git commit -am'
 alias gca='sudo git commit -a'
 alias gpush='sudo git push'
-alias gpusho='sudo git push -u orign'
+alias gpusho='sudo git push -u orign master'
 alias gpushob='sudo git push -u origin "$1"'
+alias gpull='sudo git pull'
+alias gpullo='sudo git pull origin master'
 alias gitstat='sudo git status'
 ```
 
