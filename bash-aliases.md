@@ -21,18 +21,20 @@ alias u-install='apt-get install'
 
 ### For Git
 ```bash
-alias gitit='sudo git init'
-alias gd='sudo git add'
-alias gda='sudo git add .'
-alias gcmm='sudo git commit -m'
-alias gcam='sudo git commit -am'
-alias gca='sudo git commit -a'
-alias gpush='sudo git push'
-alias gpusho='sudo git push -u orign master'
-alias gpushob='sudo git push -u origin "$1"'
-alias gpull='sudo git pull'
-alias gpullo='sudo git pull origin master'
-alias gitstat='sudo git status'
+alias gitit='git init'
+alias gd='git add .'
+alias gcmm='git commit -m'
+alias gcam='git commit -am'
+alias gca='git commit -a'
+alias gpush='git push'
+alias gpusho='git push -u orign master'
+alias gpushob='git push -u origin "$1"'
+alias gpull='git pull'
+alias gpullo='git pull origin master'
+alias gfetch='git fetch'
+alias gstat='sudo git status'
+alias gcb='git checkout'
+alias gcbn='git checkout -b'
 ```
 
 ### For Apache2
